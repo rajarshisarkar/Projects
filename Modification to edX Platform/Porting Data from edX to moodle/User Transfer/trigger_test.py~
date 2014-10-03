@@ -1,0 +1,5 @@
+import os
+
+os.chdir('//home//gaurav//trigger1')
+os.system('javac -classpath /home/gaurav/trigger1/mongo-2.10.1.jar:/home/gaurav/trigger1/mysql-connector-java-5.0.8-bin.jar:/home/gaurav/trigger1/sqlite-jdbc-3.7.2.jar /home/gaurav/trigger1/edx_to_mdl_user_sync.java')
+os.system('java -classpath ".:/home/gaurav/trigger1/mongo-2.10.1.jar:/home/gaurav/trigger1/mysql-connector-java-5.0.8-bin.jar:/home/gaurav/trigger1/sqlite-jdbc-3.7.2.jar" edx_to_mdl_user_sync')

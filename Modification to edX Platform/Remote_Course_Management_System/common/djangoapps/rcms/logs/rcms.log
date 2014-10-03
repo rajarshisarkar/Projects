@@ -1,0 +1,943 @@
+connected to: 127.0.0.1
+DATABASE: xmodule	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule
+	xmodule.modulestore to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+		 7 objects
+Fri Jun 20 07:22:25 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+Fri Jun 20 07:22:25 	 going into namespace [xmodule.modulestore]
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.files to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+		 6 objects
+Fri Jun 20 07:22:26 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+Fri Jun 20 07:22:26 	 going into namespace [xcontent.fs.files]
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.chunks to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.chunks.bson
+		 29 objects
+Fri Jun 20 07:22:27 /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson
+Fri Jun 20 07:22:27 	 going into namespace [xcontent.fs.chunks]
+Fri Jun 20 07:23:05 EDT 2014
+Fri Jun 20 07:23:05 EDT 2014
+Fri Jun 20 07:23:05 EDT 2014
+connected to: 10.105.14.157
+imported 6 objects
+connected to: 10.105.14.157
+imported 7 objects
+connected to: 10.105.14.157
+imported 29 objects
+connected to: 127.0.0.1
+DATABASE: xmodule	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule
+	xmodule.modulestore to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+		 2 objects
+Sat Jun 21 02:33:18 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+Sat Jun 21 02:33:18 	 going into namespace [xmodule.modulestore]
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.files to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+		 0 objects
+Sat Jun 21 02:33:18 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+Sat Jun 21 02:33:18 	 going into namespace [xcontent.fs.files]
+Sat Jun 21 02:33:18 file /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson empty, skipping
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.chunks to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.chunks.bson
+		 0 objects
+Sat Jun 21 02:33:18 /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson
+Sat Jun 21 02:33:18 	 going into namespace [xcontent.fs.chunks]
+Sat Jun 21 02:33:18 file /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson empty, skipping
+Sat Jun 21 02:33:54 EDT 2014
+Sat Jun 21 02:33:55 EDT 2014
+Sat Jun 21 02:33:55 EDT 2014
+connected to: 10.129.28.248
+imported 0 objects
+connected to: 10.129.28.248
+imported 2 objects
+connected to: 10.129.28.248
+imported 0 objects
+Sat Jun 21 02:34:39 EDT 2014
+MongoDB shell version: 2.0.4
+connecting to: 10.129.28.248:27017/xmodule
+Sat Jun 21 02:34:41 EDT 2014
+MongoDB shell version: 2.0.4
+connecting to: 10.129.28.248:27017/xcontent
+Sat Jun 21 02:34:41 EDT 2014
+MongoDB shell version: 2.0.4
+connecting to: 10.129.28.248:27017/xcontent
+connected to: 127.0.0.1
+DATABASE: xmodule	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule
+	xmodule.modulestore to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+		 6 objects
+Sat Jun 21 02:43:04 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+Sat Jun 21 02:43:04 	 going into namespace [xmodule.modulestore]
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.files to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+		 0 objects
+Sat Jun 21 02:43:04 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+Sat Jun 21 02:43:04 	 going into namespace [xcontent.fs.files]
+Sat Jun 21 02:43:04 file /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson empty, skipping
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.chunks to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.chunks.bson
+		 0 objects
+Sat Jun 21 02:43:04 /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson
+Sat Jun 21 02:43:04 	 going into namespace [xcontent.fs.chunks]
+Sat Jun 21 02:43:04 file /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson empty, skipping
+connected to: 127.0.0.1
+DATABASE: xmodule	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule
+	xmodule.modulestore to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+		 4 objects
+Sat Jun 21 02:52:14 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+Sat Jun 21 02:52:14 	 going into namespace [xmodule.modulestore]
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.files to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+		 0 objects
+Sat Jun 21 02:52:15 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+Sat Jun 21 02:52:15 	 going into namespace [xcontent.fs.files]
+Sat Jun 21 02:52:15 file /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson empty, skipping
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.chunks to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.chunks.bson
+		 0 objects
+Sat Jun 21 02:52:15 /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson
+Sat Jun 21 02:52:15 	 going into namespace [xcontent.fs.chunks]
+Sat Jun 21 02:52:15 file /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson empty, skipping
+Sat Jun 21 02:55:39 EDT 2014
+Sat Jun 21 02:55:39 EDT 2014
+Sat Jun 21 02:55:39 EDT 2014
+connected to: 10.129.28.248
+imported 0 objects
+connected to: 10.129.28.248
+imported 8 objects
+connected to: 10.129.28.248
+imported 0 objects
+Sat Jun 21 02:59:23 EDT 2014
+MongoDB shell version: 2.0.4
+connecting to: 10.129.28.248:27017/xmodule
+Sat Jun 21 02:59:23 EDT 2014
+MongoDB shell version: 2.0.4
+connecting to: 10.129.28.248:27017/xcontent
+Sat Jun 21 02:59:23 EDT 2014
+MongoDB shell version: 2.0.4
+connecting to: 10.129.28.248:27017/xcontent
+Mon Jun 23 14:12:00 IST 2014
+Mon Jun 23 14:12:01 IST 2014
+Mon Jun 23 14:12:01 IST 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 7 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 06:47:19 EDT 2014
+Mon Jun 23 06:47:19 EDT 2014
+Mon Jun 23 06:47:19 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 9 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:11:15 EDT 2014
+Mon Jun 23 07:11:15 EDT 2014
+Mon Jun 23 07:11:15 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 9 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:12:33 EDT 2014
+Mon Jun 23 07:12:33 EDT 2014
+Mon Jun 23 07:12:33 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 10 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:16:36 EDT 2014
+Mon Jun 23 07:16:36 EDT 2014
+Mon Jun 23 07:16:36 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 10 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:16:46 EDT 2014
+Mon Jun 23 07:16:46 EDT 2014
+Mon Jun 23 07:16:46 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 10 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:16:56 EDT 2014
+Mon Jun 23 07:16:56 EDT 2014
+Mon Jun 23 07:16:56 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 11 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:17:06 EDT 2014
+Mon Jun 23 07:17:06 EDT 2014
+Mon Jun 23 07:17:06 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 11 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:17:16 EDT 2014
+Mon Jun 23 07:17:16 EDT 2014
+Mon Jun 23 07:17:16 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 11 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:17:26 EDT 2014
+Mon Jun 23 07:17:26 EDT 2014
+Mon Jun 23 07:17:26 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:17:36 EDT 2014
+Mon Jun 23 07:17:36 EDT 2014
+Mon Jun 23 07:17:36 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:17:46 EDT 2014
+Mon Jun 23 07:17:46 EDT 2014
+Mon Jun 23 07:17:46 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:17:56 EDT 2014
+Mon Jun 23 07:17:56 EDT 2014
+Mon Jun 23 07:17:56 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:18:06 EDT 2014
+Mon Jun 23 07:18:06 EDT 2014
+Mon Jun 23 07:18:06 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:18:16 EDT 2014
+Mon Jun 23 07:18:16 EDT 2014
+Mon Jun 23 07:18:16 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:18:26 EDT 2014
+Mon Jun 23 07:18:26 EDT 2014
+Mon Jun 23 07:18:26 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:18:38 EDT 2014
+Mon Jun 23 07:18:38 EDT 2014
+Mon Jun 23 07:18:38 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:18:48 EDT 2014
+Mon Jun 23 07:18:48 EDT 2014
+Mon Jun 23 07:18:48 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:18:58 EDT 2014
+Mon Jun 23 07:18:58 EDT 2014
+Mon Jun 23 07:18:58 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:19:08 EDT 2014
+Mon Jun 23 07:19:08 EDT 2014
+Mon Jun 23 07:19:08 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:19:18 EDT 2014
+Mon Jun 23 07:19:18 EDT 2014
+Mon Jun 23 07:19:18 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:19:28 EDT 2014
+Mon Jun 23 07:19:28 EDT 2014
+Mon Jun 23 07:19:28 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:19:38 EDT 2014
+Mon Jun 23 07:19:38 EDT 2014
+Mon Jun 23 07:19:38 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:19:53 EDT 2014
+Mon Jun 23 07:19:53 EDT 2014
+Mon Jun 23 07:19:53 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:20:03 EDT 2014
+Mon Jun 23 07:20:03 EDT 2014
+Mon Jun 23 07:20:03 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:20:13 EDT 2014
+Mon Jun 23 07:20:13 EDT 2014
+Mon Jun 23 07:20:14 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:20:23 EDT 2014
+Mon Jun 23 07:20:23 EDT 2014
+Mon Jun 23 07:20:24 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:20:33 EDT 2014
+Mon Jun 23 07:20:34 EDT 2014
+Mon Jun 23 07:20:34 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:20:59 EDT 2014
+Mon Jun 23 07:20:59 EDT 2014
+Mon Jun 23 07:20:59 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:21:09 EDT 2014
+Mon Jun 23 07:21:09 EDT 2014
+Mon Jun 23 07:21:09 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:21:22 EDT 2014
+Mon Jun 23 07:21:22 EDT 2014
+Mon Jun 23 07:21:22 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:21:32 EDT 2014
+Mon Jun 23 07:21:32 EDT 2014
+Mon Jun 23 07:21:32 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:21:42 EDT 2014
+Mon Jun 23 07:21:42 EDT 2014
+Mon Jun 23 07:21:42 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:21:52 EDT 2014
+Mon Jun 23 07:21:52 EDT 2014
+Mon Jun 23 07:21:52 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:22:02 EDT 2014
+Mon Jun 23 07:22:02 EDT 2014
+Mon Jun 23 07:22:02 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:22:12 EDT 2014
+Mon Jun 23 07:22:12 EDT 2014
+Mon Jun 23 07:22:12 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:22:22 EDT 2014
+Mon Jun 23 07:22:22 EDT 2014
+Mon Jun 23 07:22:22 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:22:32 EDT 2014
+Mon Jun 23 07:22:32 EDT 2014
+Mon Jun 23 07:22:32 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:22:42 EDT 2014
+Mon Jun 23 07:22:42 EDT 2014
+Mon Jun 23 07:22:42 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:22:52 EDT 2014
+Mon Jun 23 07:22:52 EDT 2014
+Mon Jun 23 07:22:52 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:23:02 EDT 2014
+Mon Jun 23 07:23:02 EDT 2014
+Mon Jun 23 07:23:02 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:23:12 EDT 2014
+Mon Jun 23 07:23:12 EDT 2014
+Mon Jun 23 07:23:12 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:23:22 EDT 2014
+Mon Jun 23 07:23:22 EDT 2014
+Mon Jun 23 07:23:22 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:23:32 EDT 2014
+Mon Jun 23 07:23:32 EDT 2014
+Mon Jun 23 07:23:32 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:23:42 EDT 2014
+Mon Jun 23 07:23:42 EDT 2014
+Mon Jun 23 07:23:42 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:23:52 EDT 2014
+Mon Jun 23 07:23:52 EDT 2014
+Mon Jun 23 07:23:52 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:24:02 EDT 2014
+Mon Jun 23 07:24:02 EDT 2014
+Mon Jun 23 07:24:02 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:24:12 EDT 2014
+Mon Jun 23 07:24:12 EDT 2014
+Mon Jun 23 07:24:12 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:24:22 EDT 2014
+Mon Jun 23 07:24:22 EDT 2014
+Mon Jun 23 07:24:22 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:24:32 EDT 2014
+Mon Jun 23 07:24:32 EDT 2014
+Mon Jun 23 07:24:32 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:24:42 EDT 2014
+Mon Jun 23 07:24:42 EDT 2014
+Mon Jun 23 07:24:42 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:24:52 EDT 2014
+Mon Jun 23 07:24:52 EDT 2014
+Mon Jun 23 07:24:52 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:25:02 EDT 2014
+Mon Jun 23 07:25:02 EDT 2014
+Mon Jun 23 07:25:02 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:25:12 EDT 2014
+Mon Jun 23 07:25:12 EDT 2014
+Mon Jun 23 07:25:12 EDT 2014
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:26:16 EDT 2014
+Mon Jun 23 07:26:16 EDT 2014
+Mon Jun 23 07:26:16 EDT 2014
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:26:30 EDT 2014
+Mon Jun 23 07:26:30 EDT 2014
+Mon Jun 23 07:26:30 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:26:48 EDT 2014
+Mon Jun 23 07:26:48 EDT 2014
+Mon Jun 23 07:26:48 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Mon Jun 23 07:26:58 EDT 2014
+Mon Jun 23 07:26:58 EDT 2014
+Mon Jun 23 07:26:58 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+Mon Jun 23 07:27:17 Socket recv() errno:104 Connection reset by peer 10.105.14.157:27017
+Mon Jun 23 07:27:17 SocketException: remote: 10.105.14.157:27017 error: 9001 socket exception [1] server [10.105.14.157:27017] 
+Mon Jun 23 07:27:17 DBClientCursor::init call() failed
+Mon Jun 23 07:27:23 EDT 2014
+Mon Jun 23 07:27:23 EDT 2014
+Mon Jun 23 07:27:23 EDT 2014
+Mon Jun 23 07:27:33 EDT 2014
+Mon Jun 23 07:27:33 EDT 2014
+Mon Jun 23 07:27:33 EDT 2014
+Tue Jun 24 04:43:09 EDT 2014
+Tue Jun 24 04:43:09 EDT 2014
+Tue Jun 24 04:43:10 EDT 2014
+Tue Jun 24 04:43:24 EDT 2014
+Tue Jun 24 04:43:24 EDT 2014
+Tue Jun 24 04:43:24 EDT 2014
+Tue Jun 24 04:46:11 EDT 2014
+Tue Jun 24 04:46:11 EDT 2014
+Tue Jun 24 04:46:11 EDT 2014
+Tue Jun 24 04:47:11 EDT 2014
+Tue Jun 24 04:47:11 EDT 2014
+Tue Jun 24 04:47:11 EDT 2014
+Tue Jun 24 04:57:29 EDT 2014
+Tue Jun 24 04:57:29 EDT 2014
+Tue Jun 24 04:57:29 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+Tue Jun 24 04:58:21 EDT 2014
+Tue Jun 24 04:58:21 EDT 2014
+Tue Jun 24 04:58:21 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 12 objects
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 127.0.0.1
+DATABASE: xmodule	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule
+	xmodule.modulestore to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+		 5 objects
+Tue Jun 24 06:48:05 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+Tue Jun 24 06:48:05 	 going into namespace [xmodule.modulestore]
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.files to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+		 2 objects
+Tue Jun 24 06:48:07 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+Tue Jun 24 06:48:07 	 going into namespace [xcontent.fs.files]
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.chunks to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.chunks.bson
+		 2 objects
+Tue Jun 24 06:48:07 /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson
+Tue Jun 24 06:48:07 	 going into namespace [xcontent.fs.chunks]
+connected to: 127.0.0.1
+DATABASE: xmodule	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule
+	xmodule.modulestore to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+		 2 objects
+Tue Jun 24 06:48:18 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+Tue Jun 24 06:48:18 	 going into namespace [xmodule.modulestore]
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.files to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+		 0 objects
+Tue Jun 24 06:48:18 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+Tue Jun 24 06:48:18 	 going into namespace [xcontent.fs.files]
+Tue Jun 24 06:48:18 file /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson empty, skipping
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.chunks to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.chunks.bson
+		 0 objects
+Tue Jun 24 06:48:19 /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson
+Tue Jun 24 06:48:19 	 going into namespace [xcontent.fs.chunks]
+Tue Jun 24 06:48:19 file /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson empty, skipping
+Tue Jun 24 06:58:58 EDT 2014
+Tue Jun 24 06:58:58 EDT 2014
+Tue Jun 24 06:58:58 EDT 2014
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+imported 5 objects
+connected to: 10.105.14.157
+imported 2 objects
+Tue Jun 24 06:58:58 EDT 2014
+Tue Jun 24 06:58:58 EDT 2014
+Tue Jun 24 06:58:58 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+imported 0 objects
+Tue Jun 24 06:59:58 EDT 2014
+Tue Jun 24 06:59:58 EDT 2014
+Tue Jun 24 06:59:58 EDT 2014
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+imported 5 objects
+connected to: 10.105.14.157
+imported 2 objects
+Tue Jun 24 07:00:03 EDT 2014
+Tue Jun 24 07:00:03 EDT 2014
+Tue Jun 24 07:00:03 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+imported 0 objects
+Tue Jun 24 07:00:58 EDT 2014
+Tue Jun 24 07:00:58 EDT 2014
+Tue Jun 24 07:00:58 EDT 2014
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+imported 5 objects
+connected to: 10.105.14.157
+imported 2 objects
+Tue Jun 24 07:00:58 EDT 2014
+Tue Jun 24 07:00:58 EDT 2014
+Tue Jun 24 07:00:58 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 127.0.0.1
+DATABASE: xmodule	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule
+	xmodule.modulestore to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+		 5 objects
+Tue Jun 24 07:01:40 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+Tue Jun 24 07:01:40 	 going into namespace [xmodule.modulestore]
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.files to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+		 2 objects
+Tue Jun 24 07:01:40 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+Tue Jun 24 07:01:40 	 going into namespace [xcontent.fs.files]
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.chunks to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.chunks.bson
+		 2 objects
+Tue Jun 24 07:01:40 /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson
+Tue Jun 24 07:01:40 	 going into namespace [xcontent.fs.chunks]
+Tue Jun 24 07:01:58 EDT 2014
+Tue Jun 24 07:01:58 EDT 2014
+Tue Jun 24 07:01:58 EDT 2014
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+imported 5 objects
+connected to: 10.105.14.157
+imported 2 objects
+Tue Jun 24 07:02:14 EDT 2014
+Tue Jun 24 07:02:14 EDT 2014
+Tue Jun 24 07:02:14 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+Tue Jun 24 07:02:22 EDT 2014
+MongoDB shell version: 2.0.4
+connecting to: 10.105.14.182:27017/xmodule
+Tue Jun 24 07:02:22 EDT 2014
+MongoDB shell version: 2.0.4
+connecting to: 10.105.14.182:27017/xcontent
+Tue Jun 24 07:02:22 EDT 2014
+MongoDB shell version: 2.0.4
+connecting to: 10.105.14.182:27017/xcontent
+imported 0 objects
+Tue Jun 24 07:02:23 EDT 2014
+Tue Jun 24 07:02:23 EDT 2014
+Tue Jun 24 07:02:23 EDT 2014
+connected to: 10.105.14.182
+imported 2 objects
+connected to: 10.105.14.182
+imported 5 objects
+connected to: 10.105.14.182
+imported 2 objects
+connected to: 127.0.0.1
+DATABASE: xmodule	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule
+	xmodule.modulestore to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+		 2 objects
+Tue Jun 24 07:02:34 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+Tue Jun 24 07:02:34 	 going into namespace [xmodule.modulestore]
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.files to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+		 0 objects
+Tue Jun 24 07:02:34 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+Tue Jun 24 07:02:34 	 going into namespace [xcontent.fs.files]
+Tue Jun 24 07:02:34 file /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson empty, skipping
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.chunks to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.chunks.bson
+		 0 objects
+Tue Jun 24 07:02:34 /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson
+Tue Jun 24 07:02:34 	 going into namespace [xcontent.fs.chunks]
+Tue Jun 24 07:02:34 file /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson empty, skipping
+Tue Jun 24 07:02:58 EDT 2014
+Tue Jun 24 07:02:58 EDT 2014
+Tue Jun 24 07:02:58 EDT 2014
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+imported 5 objects
+connected to: 10.105.14.157
+imported 2 objects
+Tue Jun 24 07:03:02 EDT 2014
+Tue Jun 24 07:03:02 EDT 2014
+Tue Jun 24 07:03:02 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+imported 0 objects
+Tue Jun 24 07:03:03 EDT 2014
+Tue Jun 24 07:03:03 EDT 2014
+Tue Jun 24 07:03:03 EDT 2014
+connected to: 10.105.14.182
+imported 0 objects
+connected to: 10.105.14.182
+imported 2 objects
+connected to: 10.105.14.182
+imported 0 objects
+Tue Jun 24 07:03:58 EDT 2014
+Tue Jun 24 07:03:58 EDT 2014
+Tue Jun 24 07:03:58 EDT 2014
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+imported 5 objects
+connected to: 10.105.14.157
+imported 2 objects
+Tue Jun 24 07:04:05 EDT 2014
+Tue Jun 24 07:04:05 EDT 2014
+Tue Jun 24 07:04:05 EDT 2014
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+imported 0 objects
+Tue Jun 24 07:04:05 EDT 2014
+Tue Jun 24 07:04:05 EDT 2014
+Tue Jun 24 07:04:05 EDT 2014
+connected to: 10.105.14.182
+imported 0 objects
+connected to: 10.105.14.182
+imported 2 objects
+connected to: 10.105.14.182
+imported 0 objects
+Tue Jun 24 07:04:58 EDT 2014
+Tue Jun 24 07:04:58 EDT 2014
+Tue Jun 24 07:04:58 EDT 2014
+Tue Jun 24 07:05:09 EDT 2014
+Tue Jun 24 07:05:09 EDT 2014
+Tue Jun 24 07:05:09 EDT 2014
+Tue Jun 24 07:05:13 EDT 2014
+Tue Jun 24 07:05:13 EDT 2014
+Tue Jun 24 07:05:13 EDT 2014
+Tue Jun 24 07:05:58 EDT 2014
+Tue Jun 24 07:05:58 EDT 2014
+Tue Jun 24 07:05:58 EDT 2014
+Tue Jun 24 07:06:07 EDT 2014
+Tue Jun 24 07:06:07 EDT 2014
+Tue Jun 24 07:06:07 EDT 2014
+Tue Jun 24 07:06:16 EDT 2014
+Tue Jun 24 07:06:16 EDT 2014
+Tue Jun 24 07:06:16 EDT 2014
+Tue Jun 24 07:06:58 EDT 2014
+Tue Jun 24 07:06:58 EDT 2014
+Tue Jun 24 07:06:58 EDT 2014
+Tue Jun 24 07:07:07 EDT 2014
+Tue Jun 24 07:07:07 EDT 2014
+Tue Jun 24 07:07:07 EDT 2014
+Tue Jun 24 07:07:16 EDT 2014
+Tue Jun 24 07:07:16 EDT 2014
+Tue Jun 24 07:07:16 EDT 2014
+Tue Jun 24 07:07:58 EDT 2014
+Tue Jun 24 07:07:58 EDT 2014
+Tue Jun 24 07:07:58 EDT 2014
+Tue Jun 24 07:08:07 EDT 2014
+Tue Jun 24 07:08:07 EDT 2014
+Tue Jun 24 07:08:07 EDT 2014
+Tue Jun 24 07:08:16 EDT 2014
+Tue Jun 24 07:08:16 EDT 2014
+Tue Jun 24 07:08:16 EDT 2014
+Tue Jun 24 07:08:58 EDT 2014
+Tue Jun 24 07:08:58 EDT 2014
+Tue Jun 24 07:08:58 EDT 2014
+Tue Jun 24 07:09:07 EDT 2014
+Tue Jun 24 07:09:07 EDT 2014
+Tue Jun 24 07:09:07 EDT 2014
+Tue Jun 24 07:09:16 EDT 2014
+Tue Jun 24 07:09:16 EDT 2014
+Tue Jun 24 07:09:16 EDT 2014

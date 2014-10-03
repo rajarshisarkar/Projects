@@ -1,0 +1,50 @@
+connected to: 127.0.0.1
+DATABASE: xmodule	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule
+	xmodule.modulestore to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+		 2 objects
+Fri Jun 20 07:12:19 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xmodule/modulestore.bson
+Fri Jun 20 07:12:19 	 going into namespace [xmodule.modulestore]
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.files to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+		 0 objects
+Fri Jun 20 07:12:19 /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson
+Fri Jun 20 07:12:19 	 going into namespace [xcontent.fs.files]
+Fri Jun 20 07:12:19 file /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.files.bson empty, skipping
+connected to: 127.0.0.1
+DATABASE: xcontent	 to 	/root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent
+	xcontent.fs.chunks to /root/edx_all/edx-platform/common/djangoapps/rcms/dump/xcontent/fs.chunks.bson
+		 0 objects
+Fri Jun 20 07:12:20 /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson
+Fri Jun 20 07:12:20 	 going into namespace [xcontent.fs.chunks]
+Fri Jun 20 07:12:20 file /root/edx_all/edx-platform/common/djangoapps/rcms/dump//xcontent/fs.chunks.bson empty, skipping
+connected to: 10.105.14.157
+imported 0 objects
+connected to: 10.105.14.157
+imported 2 objects
+connected to: 10.105.14.157
+imported 0 objects
+MongoDB shell version: 2.0.4
+connecting to: 10.105.14.157:27017/xmodule
+MongoDB shell version: 2.0.4
+connecting to: 10.105.14.157:27017/xcontent
+MongoDB shell version: 2.0.4
+connecting to: 10.105.14.157:27017/xcontent
+Fri Jun 20 07:21:05 EDT 2014
+Fri Jun 20 07:21:05 EDT 2014
+Fri Jun 20 07:21:05 EDT 2014
+connected to: 10.105.14.157
+imported 4 objects
+connected to: 10.105.14.157
+imported 20 objects
+connected to: 10.105.14.157
+imported 8 objects
+Fri Jun 20 07:21:33 EDT 2014
+MongoDB shell version: 2.0.4
+connecting to: 10.105.14.157:27017/xmodule
+Fri Jun 20 07:21:33 EDT 2014
+MongoDB shell version: 2.0.4
+connecting to: 10.105.14.157:27017/xcontent
+Fri Jun 20 07:21:34 EDT 2014
+MongoDB shell version: 2.0.4
+connecting to: 10.105.14.157:27017/xcontent

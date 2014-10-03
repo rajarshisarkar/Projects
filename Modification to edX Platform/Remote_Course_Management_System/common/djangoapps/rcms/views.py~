@@ -1,0 +1,178 @@
+# Create your views here.
+from rcms.models import *
+from django.shortcuts import render, redirect
+from django.http import HttpResponse
+import datetime
+import time
+from django.conf import settings
+from django.contrib.auth import logout, authenticate, login
+from django.contrib.auth.models import User, AnonymousUser
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth.views import password_reset_confirm
+from django.contrib import messages
+from django.core.context_processors import csrf
+import os
+from student.models import (
+	Registration, UserProfile, PendingNameChange,
+	PendingEmailChange, CourseEnrollment, unique_id_for_user,
+	CourseEnrollmentAllowed, UserStanding, LoginFailures,
+	create_comments_service_user, PasswordHistory,CourseAccessRole
+)
+
+@login_required
+def rcms(request,success):
+	#success = int(success)
+	user = request.user
+	try :
+		uni = Universitie.objects.get(user = user)
+		offered_list = []
+		errors_panel = []
+		errors_main= []
+		colour = []
+		if user.is_staff:
+
+			course_list = CourseAccessRole.objects.all()
+			final_list = []
+			for course in course_list :
+				if course.role == 'staff' :
+					final_list.append(course.get_id())
+
+			offered_list = OfferedCourse.objects.all()
+			colleges_reg = Universitie.objects.all()
+			if success == '3':
+				errors_main.append("No options selected")
+				colour.append("blue")
+			if success == '2' :
+				errors_main.append("Course already offerd")
+				colour.append("red")
+			return render(request, 'remote_sync/server_interface.html', {'error':True,'colour': colour, 'error_main_list': errors_main, 'course_list': final_list, 'offer_list' : offered_list, 'college_list': colleges_reg})
+			
+
+		else:
+			#uni = Universitie.objects.get(user=user)
+			course_taken=uni.courses_taken
+			list_course = course_taken.split(';')
+			course_list = []
+			opted_list= []
+
+			#return HttpResponse(len(list_crs))
+			course_offered_list = OfferedCourse.objects.all()
+			#return HttpResponse(len(course_offered_list))
+			for course in course_offered_list:
+				if course.course_id not in list_course :
+					course_list.append(course)
+				else:
+					opted_list.append(course)
+
+			if success == '1':
+				errors_panel.append("Course Transfer Successful!")
+				colour.append("green")
+
+			elif success == '0' :
+				errors_panel.append("Course Transfer Failed!")
+				colour.append("red")
+
+			elif success == '3' :
+				errors_main.append("No Option selected")
+				colour.append("blue")
+
+			return render(request, 'remote_sync/user_interface.html',{'error': errors_panel, 'error_main_list': errors_main, 'colour':colour, 'error_panel': errors_panel, 'course_list': course_list, 'opted_list': opted_list})   
+
+	except :
+		return render(request, 'remote_sync/not_authorized.html', {'request' : request})   
+
+
+
+
+	#return render_to_response('course_list.html',dict(csr = csr,))
+@login_required
+def offercourse(request):
+	if 'course' in request.GET:
+
+		selcourse = str(request.GET['course'])
+		organization = selcourse.split(" ")[0]
+		id_req = selcourse.split(" ")[1]
+		try :
+			OfferedCourse.objects.get(course_id = id_req)
+			return redirect('/rcms/2')
+		except : 
+			b = OfferedCourse(name = selcourse, course_id = id_req, org = organization, start_date = time.strftime("%Y-%m-%d"))
+			b.save()
+			return redirect('/rcms/')
+
+	else :
+		return redirect('/rcms/3')
+@login_required
+def unoffercourse(request):
+	if 'course' in request.GET:
+
+		selcourse = str(request.GET['course'])
+		csr = OfferedCourse.objects.get(course_id = selcourse)
+		csr.delete()
+		return redirect('/rcms/')
+	else :
+		return redirect('/rcms/3')
+
+@login_required
+def commitcourse(request):
+	if 'course' in request.GET:
+		success = transfer(request)
+		if success == 0:
+			user = request.user
+			uni = Universitie.objects.get(user=user)
+			c_id = request.GET['course']
+			str_temp = str(uni.courses_taken)
+			str_temp+=";"+c_id
+			uni.courses_taken = str_temp
+			uni.save()
+			#return HttpResponse("DONE")
+			return redirect('/rcms/1',)
+
+		else:
+			return redirect('/rcms/0',)
+	else :
+		return redirect('/rcms/3',)
+
+
+@login_required
+def uncommitcourse(request):
+	if 'course' in request.GET:
+		user = request.user
+		uni = Universitie.objects.get(user=user)
+		c_id = request.GET['course']
+		str_temp = str(uni.courses_taken)
+		str_temp = str_temp.split(';')
+		str_temp.remove(c_id)
+		str_temp = ";".join(str_temp)
+		uni.courses_taken = str_temp
+		uni.save()
+		return redirect('/rcms/')
+
+	else :
+		return redirect('/rcms/3')
+
+@login_required
+def transfer(request):
+	course_selected = request.GET['course']
+	#course_selected = csr_data.split(' ')[1]
+	ip = str(request.META['REMOTE_ADDR'])
+
+	#modulestore
+	cmd = "mongodump --collection modulestore --db xmodule --query \'{\"_id.course\":\"" + course_selected + "\"}\'" + " --out /home/dibu/copy/"# --host " + ip + " --port 27017"
+	x = os.system(cmd + ">> ~/output1.txt")
+	cmd_restore = "mongorestore --collection modulestore --db xmodule " + "/home/dibu/copy/xmodule/modulestore.bson --host " + ip + " --port 27017"
+	x = os.system(cmd_restore + ">> ~/output2.txt")
+
+
+	#fs.files
+	cmd = "mongodump --collection fs.files --db xcontent --query \'{\"_id.course\":\"" + course_selected + "\"}\'" + " --out /home/dibu/copy/"# --host " + ip + " --port 27017"
+	x = os.system(cmd + ">> ~/output1.txt")
+	cmd_restore = "mongorestore --collection fs.files --db xcontent " + "/home/dibu/copy/xcontent/fs.files.bson --host " + ip + " --port 27017"
+	x = os.system(cmd_restore + ">> ~/output2.txt")
+
+	#fs.chunks
+	cmd = "mongodump --collection fs.chunks --db xcontent --query \'{\"files_id.course\":\"" + course_selected + "\"}\'" + " --out /home/dibu/copy/"# --host " + ip + " --port 27017"
+	x = os.system(cmd + ">> ~/output1.txt")
+	cmd_restore = "mongorestore --collection fs.chunks --db xcontent " + "/home/dibu/copy/xcontent/fs.chunks.bson --host " + ip + " --port 27017"
+	x = os.system(cmd_restore + ">> ~/output2.txt")
+	return x

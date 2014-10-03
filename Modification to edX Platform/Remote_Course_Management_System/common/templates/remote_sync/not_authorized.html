@@ -1,0 +1,27 @@
+{% load staticfiles %}	
+<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="{% static 'rcms/dibu_server.css' %}">
+			<title> CourseList </title>
+		</head>
+
+
+
+
+		<body>
+			<div class= 'container'>
+				<div class = 'heading'>
+	 
+				<img src="{% static 'img/logo-edx-studio.png' %}" height="60" width="250">
+
+				<h1>Remote Course Management System </h1> </div>
+
+
+				<div class = 'panel_error'>
+					<h1 style = "padding-top : 11%; color: #EBEBEC;"> You are not Authorized to login here !</h1>
+					<p class = 'text' style = "padding-top : 11%; color: #EBEBEC;"><a href = '/course/'> <strong> << </strong></a><p>
+				</div>
+
+
+		</body>
+	</html>
