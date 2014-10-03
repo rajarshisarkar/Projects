@@ -1,0 +1,77 @@
+body{
+margin:-.2cm 0cm 0cm 0cm;
+}
+
+.restricted{
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+html,body{
+overflow:auto;
+}
+
+.displayinline{
+display:inline;
+margin-bottom:0;
+}
+
+.buttonwrapper{
+background: silver;
+height: 24px;
+width: 70px;
+}
+
+.selectBoxArrow{
+	margin-top:1px;
+	float:left;
+	position:absolute;
+	right:1px;
+}	
+
+.selectBoxInput{
+	border:0px;
+	padding-left:0px;
+	height:20px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:192px;
+}
+
+.selectBox{
+	border:1px solid #7f9db9;
+	height:20px;	
+}
+
+.selectBoxOptionContainer{
+	position:absolute;
+	border:1px solid #7f9db9;
+	height:20px;
+	background-color:#FFF;
+	left:-1px;
+	top:20px;
+	visibility:hidden;
+	overflow:auto;
+	z-index:1000;
+}
+
+.selectBoxIframe{
+	position:absolute;
+	background-color:#FFF;
+	border:0px;
+	z-index:999;
+}
+
+.selectBoxAnOption{
+	font-family:arial;
+	font-size:12px;
+	cursor:default;
+	margin:1px;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+.linebreak { 
+margin-top: -20px; 
+}
