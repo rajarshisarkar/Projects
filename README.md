@@ -88,6 +88,7 @@ installation process.
 To Access University Panel on Remote-Machine: **http://(Your Public IP):8001/rcms** and signin with University Account.   
 The University Account is a user-account verified by Django-admin of edX. Just go to Django-admin by visiting **http://localhost:8001/admin**
 log in with your superuser credentials, then go to 'rcms' panel, then 'universities', add the user from the dropdown list and enter other details manually.
+
 ###Porting data from edX to moodle
 
 These scripts help you to transfer content from edX to moodle. Keep the 'Porting Data from edX to moodle' folder at your home directory.
