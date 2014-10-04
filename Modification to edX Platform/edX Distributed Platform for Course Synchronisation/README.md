@@ -1,6 +1,6 @@
-#edX Distributed Platform for Course Synchronisation
+##edX Distributed Platform for Course Synchronisation
 
-##Up and Running with RCMS
+###Up and Running with RCMS
 
 Your edX Installation folder should have this structure.
 * cms
