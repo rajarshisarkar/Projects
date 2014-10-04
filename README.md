@@ -7,14 +7,14 @@ This repository contains some projects that I have worked on.
 
 Decipher - an Online Treasure Hunt is a game in which players or treasure hunters search for answers to the questions given online. The answers or clues can be hidden anywhere on the Internet. Players use clues and hints given along with the question to get the answer. Once they enter the correct answer they are presented with the next question until they have finished all the questions.
 
-Tech Used: HTML, PHP, JavaScript, JQuery, CSS, MySQL, WampServer.
+Technologies Used: HTML, PHP, JavaScript, JQuery, CSS, MySQL, WampServer.
 
 
 ##Graphical Password Authentication System
 
 Graphical passwords provide a promising alternative to traditional alphanumeric passwords. They are attractive since people usually remember pictures better than words. It is an authentication system that works by having the user select from images, in a specific order, presented in a graphical user interface . For this reason, the graphical-password approach is sometimes called graphical user authentication (GUA). Graphical passwords may offer better security than text-based passwords because many people, in an attempt to memorize text-based passwords, The system combines graphical and text-based passwords trying to achieve the best of both worlds. It also provides multi-factor authentication in a friendly intuitive system.
 
-Tech Used: HTML, PHP, JavaScript, JQuery, CSS, MySQL, WampServer.
+Technologies Used: HTML, PHP, JavaScript, JQuery, CSS, MySQL, WampServer.
 
 ##Modification-to-edX-Platform
 
@@ -172,11 +172,11 @@ log in with your superuser credentials, then go to 'rcms' panel, then 'universit
 An Online Complaint Lodging System lets you easily lodge complaints.
 A user can lodge, view status and print receipt of electrical and civil complaints while an admin can update status of complaints, add/edit locations, contractors and suppliers.
 
-Tech Used: HTML, PHP, JavaScript, JQuery, CSS, Oracle Database 11g, TCPDF, WampServer.
+Technologies Used: HTML, PHP, JavaScript, JQuery, CSS, Oracle Database 11g, TCPDF, WampServer.
 
 
 ##Online Quiz Application
 
 An Online Quiz Application lets you easily build quizzes. The administrator can build quizzes while the students can attempt those quizzes. Marks are shown instantly when a quiz is over.
 
-Tech Used: HTML, PHP, JavaScript, CSS, MySQL, WampServer.
+Technologies Used: HTML, PHP, JavaScript, CSS, MySQL, WampServer.
