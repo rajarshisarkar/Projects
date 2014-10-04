@@ -1,4 +1,4 @@
 Projects
 ========
 
-These are some projects that I have worked on.
+This repository contains some projects that I have worked on.
