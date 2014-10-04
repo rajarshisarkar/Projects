@@ -1,0 +1,6 @@
+1. Replace the username 'rajarshi' with your username in the files present in this folder. 
+(sed -i 's/rajarshi/yourusername/g' *)
+2. Install edX.
+3. Install moodle and install the rebuild course cache plugin (https://moodle.org/plugins/pluginversion.php?id=2400).
+4. Replace the course.py in the edx_all/edx-platform/cms/djangoapps/contentstore/views folder with the course.py available in this folder.
+5. Create a course in edX and automatically it gets transferred to moodle.
