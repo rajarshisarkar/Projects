@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.socialcops.challenge.rajarshi.app.MainActivity" >
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>

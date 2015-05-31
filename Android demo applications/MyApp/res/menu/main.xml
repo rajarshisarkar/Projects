@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.thenewboston.rajarshi.MainActivity" >
+
+    <item
+        android:id="@+id/aboutUs"
+        android:alphabeticShortcut="a"
+        android:numericShortcut="1"
+        android:title="About us"/>
+    <item
+        android:id="@+id/preferences"
+        android:title="Preferences"/>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>
