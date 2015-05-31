@@ -8,7 +8,7 @@ A file having 2482 words and their sentiment value (ranging from -5 to 5) is mai
 
 ###Algorithm
 The algorithm for Sentiment Dictionary Approach is as follows:
-1. Get all the words present in the tweet.
+1. Get all the words present in the tweet.<br>
 2. Add the sentiment value of all words while referring to the Sentiment Dictionary. If the word is not present in the Sentiment Dictionary then add 0.
 3. If the cumulative sentiment value is positive then the tweet is positive.
 4. If the cumulative sentiment value is zero then the tweet is neutral.
