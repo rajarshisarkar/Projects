@@ -1,0 +1,12 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{What is Sentiment Analysis?}{3}{0}{1}
+\beamer@sectionintoc {2}{Why Sentiment Analysis in Twitter?}{4}{0}{2}
+\beamer@sectionintoc {3}{Objective}{5}{0}{3}
+\beamer@sectionintoc {4}{Scope of the project}{6}{0}{4}
+\beamer@sectionintoc {5}{Tools used}{7}{0}{5}
+\beamer@sectionintoc {6}{Fetching Tweets}{8}{0}{6}
+\beamer@sectionintoc {7}{Preprocessing Tweets}{9}{0}{7}
+\beamer@sectionintoc {8}{Approaches used}{10}{0}{8}
+\beamer@sectionintoc {9}{Future Work}{29}{0}{9}
+\beamer@sectionintoc {10}{Conclusion}{30}{0}{10}
+\beamer@sectionintoc {11}{References}{31}{0}{11}

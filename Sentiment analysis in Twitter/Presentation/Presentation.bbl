@@ -1,0 +1,93 @@
+\begin{thebibliography}{10}
+
+\bibitem{rp2}
+S.~Chinthala, R.~Mande, S.~Manne, and S.~Vemuri, ``Sentiment analysis on
+  twitter streaming data,'' in {\em Emerging ICT for Bridging the Future -
+  Proceedings of the 49th Annual Convention of the Computer Society of India
+  (CSI) Volume 1} (S.~C. Satapathy, A.~Govardhan, K.~S. Raju, and J.~K. Mandal,
+  eds.), vol.~337 of {\em Advances in Intelligent Systems and Computing},
+  pp.~161--168, Springer International Publishing, 2015.
+
+\bibitem{rp4}
+G.~Paltoglou, ``Sentiment analysis in social media,'' in {\em Online Collective
+  Action} (N.~Agarwal, M.~Lim, and R.~T. Wigand, eds.), Lecture Notes in Social
+  Networks, pp.~3--17, Springer Vienna, 2014.
+
+\bibitem{rp9}
+J.~Dickerson, V.~Kagan, and V.~Subrahmanian, ``Using sentiment to detect bots
+  on twitter: Are humans more opinionated than bots?,'' in {\em Advances in
+  Social Networks Analysis and Mining (ASONAM), 2014 IEEE/ACM International
+  Conference on}, pp.~620--627, Aug 2014.
+
+\bibitem{rp1}
+K.~Singhal, B.~Agrawal, and N.~Mittal, ``Modeling indian general elections:
+  Sentiment analysis of political twitter data,'' in {\em Information Systems
+  Design and Intelligent Applications} (J.~K. Mandal, S.~C. Satapathy,
+  M.~Kumar~Sanyal, P.~P. Sarkar, and A.~Mukhopadhyay, eds.), vol.~339 of {\em
+  Advances in Intelligent Systems and Computing}, pp.~469--477, Springer India,
+  2015.
+
+\bibitem{python}
+``{Python Documentation}.'' \url{https://www.python.org/doc/}.
+\newblock [Online; Last accessed on 07-April-2015].
+
+\bibitem{nltk}
+``{Natural Language Toolkit, NLTK 3.0}.'' \url{http://www.nltk.org/}.
+\newblock [Online; Last accessed on 06-April-2015].
+
+\bibitem{libsvm}
+``{LIBSVM}.'' \url{http://www.csie.ntu.edu.tw/~cjlin/libsvm/}.
+\newblock [Online; Last accessed on 06-April-2015].
+
+\bibitem{sentimentdictionary}
+``{Sentiment Dictionary}.''
+  \url{http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010}.
+\newblock [Online; Last accessed on 06-April-2015].
+
+\bibitem{naivebayes1}
+``{Naive Bayes Classifier}.''
+  \url{http://en.wikipedia.org/wiki/Naive_Bayes_classifier}.
+\newblock [Online; Last accessed on 06-April-2015].
+
+\bibitem{naivebayes}
+``{Naive Bayes Classifier}.''
+  \url{http://sentiment.christopherpotts.net/classifiers.html#nb}.
+\newblock [Online; Last accessed on 06-April-2015].
+
+\bibitem{dataset}
+``{Training Data Set}.'' \url{http://goo.gl/DUkjbQ}.
+\newblock [Online; Last accessed on 07-April-2015].
+
+\bibitem{svm}
+``{Support Vector Machines}.''
+  \url{http://en.wikipedia.org/wiki/Support_vector_machine}.
+\newblock [Online; Last accessed on 07-April-2015].
+
+\bibitem{rp8}
+N.~F. da~Silva, E.~R. Hruschka, and E.~R.~H. Jr., ``Tweet sentiment analysis
+  with classifier ensembles,'' {\em Decision Support Systems}, vol.~66, no.~0,
+  pp.~170 -- 179, 2014.
+
+\bibitem{rp3}
+M.~Erdmann, K.~Ikeda, H.~Ishizaki, G.~Hattori, and Y.~Takishima, ``Feature
+  based sentiment analysis of tweets in multiple languages,'' in {\em Web
+  Information Systems Engineering – WISE 2014} (B.~Benatallah, A.~Bestavros,
+  Y.~Manolopoulos, A.~Vakali, and Y.~Zhang, eds.), vol.~8787 of {\em Lecture
+  Notes in Computer Science}, pp.~109--124, Springer International Publishing,
+  2014.
+
+\bibitem{rp6}
+H.~Saif, Y.~He, and H.~Alani, ``Semantic sentiment analysis of twitter,'' in
+  {\em The Semantic Web – ISWC 2012} (P.~Cudré-Mauroux, J.~Heflin, E.~Sirin,
+  T.~Tudorache, J.~Euzenat, M.~Hauswirth, J.~Parreira, J.~Hendler,
+  G.~Schreiber, A.~Bernstein, and E.~Blomqvist, eds.), vol.~7649 of {\em
+  Lecture Notes in Computer Science}, pp.~508--524, Springer Berlin Heidelberg,
+  2012.
+
+\bibitem{rp7}
+M.~Ghiassi, J.~Skinner, and D.~Zimbra, ``Twitter brand sentiment analysis: A
+  hybrid system using n-gram analysis and dynamic artificial neural network,''
+  {\em Expert Systems with Applications}, vol.~40, no.~16, pp.~6266 -- 6282,
+  2013.
+
+\end{thebibliography}

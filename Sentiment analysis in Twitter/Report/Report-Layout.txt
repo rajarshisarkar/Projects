@@ -1,0 +1,37 @@
+Front Page
+Project Approval Certificate
+Declaration
+Acknowledgement
+Abstract
+List of Figures
+List of Tables
+Contents
+
+01. Introduction
+02. Why Sentiment Analysis in Twitter?
+03. Objective and Scope of the Project
+04. Tools Used
+05. Fetching Tweets
+06. Preprocessing Tweets
+07. Approaches Used: Sentiment Dictionary Approach, Naive Bayes Approach, Support Vector Machines Approach
+08.1.1. Sentiment Dictionary Approach: Overview
+08.1.2. Sentiment Dictionary Approach: Algorithm
+08.1.3. Sentiment Dictionary Approach: Difficulties Faced
+08.1.4. Sentiment Dictionary Approach: Results
+08.2.1. Naive Bayes Approach: Overview
+08.2.2. Naive Bayes Approach: Algorithm
+08.2.3. Naive Bayes Approach: Difficulties Faced
+08.2.4. Naive Bayes Approach: Results
+08.3.1. Support Vector Machines Approach: Overview
+08.3.2. Support Vector Machines Approach: Algorithm
+08.3.3. Support Vector Machines Approach: Difficulties Faced
+08.3.4. Support Vector Machines Approach: Results
+09. Other Difficulties Faced
+10. Results
+11. Future Work
+12. Discussion and Conclusion
+
+Appendix A: Sentiment Dictionary Approach Codes
+Appendix B: Naive Bayes Approach Codes
+Appendix C: Support Vector Machines Approach Codes
+References

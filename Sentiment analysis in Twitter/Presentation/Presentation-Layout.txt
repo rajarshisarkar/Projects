@@ -1,0 +1,29 @@
+Front Slide
+
+01. What is Sentiment Analysis?
+02. Why Sentiment Analysis in Twitter?
+03. Objective 
+04. Scope of the Project
+05. Tools Used
+06. Fetching Tweets
+07. Preprocessing Tweets
+08. Approaches Used: Sentiment Dictionary Approach, Naive Bayes Approach, Support Vector Machines Approach
+09. Sentiment Dictionary Approach: Overview
+10. Sentiment Dictionary Approach: Algorithm
+11. Sentiment Dictionary Approach: Difficulties Faced
+12. Sentiment Dictionary Approach: Results
+13. Naive Bayes Approach: Overview
+14. Naive Bayes Approach: Algorithm
+15. Naive Bayes Approach: Difficulties Faced
+16. Naive Bayes Approach: Results
+17. Support Vector Machines Approach: Overview Slide 1
+18. Support Vector Machines Approach: Overview Slide 2
+19. Support Vector Machines Approach: Algorithm
+20. Support Vector Machines Approach: Difficulties Faced
+21. Support Vector Machines Approach: Results
+22. Future Work
+23. Conclusion
+
+References: Slide 1
+References: Slide 2
+Thank You Slide
