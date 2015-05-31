@@ -16,7 +16,7 @@ Graphical passwords provide a promising alternative to traditional alphanumeric 
 
 Technologies Used: HTML, PHP, JavaScript, JQuery, CSS, MySQL, WampServer.
 
-##Modification-to-edX-Platform
+##Modification to edX platform
 
 For edX installation, please refer to our Installation Documentation at [IITB-FRG-Site](http://www.it.iitb.ac.in/frg/brainstorming/sites/default/files/P4_rajarshi14_Week_04_Report_01_2014_06_04_edX_Installation_Guide.zip).
 
