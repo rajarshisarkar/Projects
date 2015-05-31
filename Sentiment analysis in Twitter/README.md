@@ -1,10 +1,10 @@
 #Sentiment analysis in Twitter
 
-For the purpose of research, we define sentiment to be “a personal positive or negative feeling” and when there is an absence of this, we treat it as a neutral sentiment.Eg: Considering tweets, "Dammmmm we Love Football" is a positive tweet, "phone going on airplane mode" is a neutral tweet and "Pep Guardiola to resign as Barcelona boss" is a negative tweet.
+For the purpose of research, we define sentiment to be "a personal positive or negative feeling" and when there is an absence of this, we treat it as a neutral sentiment.Eg: Considering tweets, "Dammmmm we Love Football" is a positive tweet, "phone going on airplane mode" is a neutral tweet and "Pep Guardiola to resign as Barcelona boss" is a negative tweet.
 
 ##Sentiment Dictionary Approach
 
-A file having 2482 words and their sentiment value (ranging from -5 to 5) is maintained. We call this file Sentiment Dictionary. A word and its sentiment in the Sentiment Dictionary is 9abeller9 by a tab character, i.e., "\t". A very positive word like "happy" is given a sentiment value of 5. A neutral word like "aeroplane" is given a sentiment value close to 0. A very negative word like "hate" is given a sentiment value of -5.
+A file having 2482 words and their sentiment value (ranging from -5 to 5) is maintained. We call this file Sentiment Dictionary. A word and its sentiment in the Sentiment Dictionary is seperated by a tab character, i.e., "\t". A very positive word like "happy" is given a sentiment value of 5. A neutral word like "aeroplane" is given a sentiment value close to 0. A very negative word like "hate" is given a sentiment value of -5.
 
 ###Algorithm
 The algorithm for Sentiment Dictionary Approach is as follows:<br>
