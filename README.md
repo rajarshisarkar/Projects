@@ -181,6 +181,11 @@ An Online Quiz Application lets you easily build quizzes. The administrator can 
 
 Technologies Used: HTML, PHP, JavaScript, CSS, MySQL, WampServer.
 
+##Sampling large graphs
+To derive a representative sample of a large citation network.
+
+Technologies used: Ubuntu 15.04, Python, Java, Git.
+
 ##Sentiment analysis in Twitter
 
 For the purpose of research, we define sentiment to be "a personal positive or negative feeling" and when there is an absence of this, we treat it as a neutral sentiment.Eg: Considering tweets, "Dammmmm we Love Football" is a positive tweet, "phone going on airplane mode" is a neutral tweet and "Pep Guardiola to resign as Barcelona boss" is a negative tweet.
