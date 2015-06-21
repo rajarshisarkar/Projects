@@ -1,0 +1,91 @@
+Year 1999:
+Number of nodes in the random sample # 1 : 942
+Diameter of the random sample: 25
+Number of nodes in the random sample # 2 : 942
+Diameter of the random sample: 25
+Number of nodes in the random sample # 3 : 942
+Diameter of the random sample: 26
+Number of nodes in the random sample # 4 : 942
+Diameter of the random sample: 25
+Number of nodes in the random sample # 5 : 942
+Diameter of the random sample: 22
+Average Diameter till year 1999 (ceil value) : 25
+
+Year 2000:
+Number of nodes in the random sample # 1 : 1076
+Diameter of the random sample: 25
+Number of nodes in the random sample # 2 : 1076
+Diameter of the random sample: 24
+Number of nodes in the random sample # 3 : 1076
+Diameter of the random sample: 24
+Number of nodes in the random sample # 4 : 1076
+Diameter of the random sample: 27
+Number of nodes in the random sample # 5 : 1076
+Diameter of the random sample: 25
+Average Diameter till year 2000 (ceil value) : 25
+
+Year 2001:
+Number of nodes in the random sample # 1 : 1208
+Diameter of the random sample: 26
+Number of nodes in the random sample # 2 : 1208
+Diameter of the random sample: 23
+Number of nodes in the random sample # 3 : 1208
+Diameter of the random sample: 23
+Number of nodes in the random sample # 4 : 1208
+Diameter of the random sample: 22
+Number of nodes in the random sample # 5 : 1208
+Diameter of the random sample: 23
+Average Diameter till year 2001 (ceil value) : 24
+
+Year 2002:
+Number of nodes in the random sample # 1 : 1389
+Diameter of the random sample: 23
+Number of nodes in the random sample # 2 : 1389
+Diameter of the random sample: 24
+Number of nodes in the random sample # 3 : 1389
+Diameter of the random sample: 23
+Number of nodes in the random sample # 4 : 1389
+Diameter of the random sample: 24
+Number of nodes in the random sample # 5 : 1389
+Diameter of the random sample: 24
+Average Diameter till year 2002 (ceil value) : 24
+
+Year 2003:
+Number of nodes in the random sample # 1 : 1612
+Diameter of the random sample: 30
+Number of nodes in the random sample # 2 : 1612
+Diameter of the random sample: 30
+Number of nodes in the random sample # 3 : 1612
+Diameter of the random sample: 28
+Number of nodes in the random sample # 4 : 1612
+Diameter of the random sample: 30
+Number of nodes in the random sample # 5 : 1612
+Diameter of the random sample: 28
+Average Diameter till year 2003 (ceil value) : 30
+
+Year 2004:
+Number of nodes in the random sample # 1 : 1798
+Diameter of the random sample: 27
+Number of nodes in the random sample # 2 : 1798
+Diameter of the random sample: 28
+Number of nodes in the random sample # 3 : 1798
+Diameter of the random sample: 30
+Number of nodes in the random sample # 4 : 1798
+Diameter of the random sample: 27
+Number of nodes in the random sample # 5 : 1798
+Diameter of the random sample: 29
+Average Diameter till year 2004 (ceil value) : 29
+
+Year 2005:
+Number of nodes in the random sample # 1 : 2026
+Diameter of the random sample: 27
+Number of nodes in the random sample # 2 : 2026
+Diameter of the random sample: 27
+Number of nodes in the random sample # 3 : 2026
+Diameter of the random sample: 31
+Number of nodes in the random sample # 4 : 2026
+Diameter of the random sample: 28
+Number of nodes in the random sample # 5 : 2026
+Diameter of the random sample: 29
+Average Diameter till year 2005 (ceil value) : 29
+

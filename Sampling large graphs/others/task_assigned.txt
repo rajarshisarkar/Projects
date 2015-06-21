@@ -1,0 +1,45 @@
+15/05/15:
+plot statistics: yearwise, fieldwise, yearwise-fieldwise.
+see definition of power law, scale free networks, collaborative networks.
+
+23/05/15:
+build citation network of year [1960,2008] using networkx library of python.
+plot degree distribution of the network.
+see definition of clustering coefficient, centrality, closedness centrality.
+
+27/05/15:
+plot year wise degree distribution of [1975,2005].
+
+31/05/15:
+clustering coeff function, average clustering function, diameter function, strongly connected, weakly connected, random walk definition
+x-> no of edges, y-> no. of nodes for [1975,2005]
+indegree, outdegree plot for [1975,2005]
+x -> year, y-> average clustering coeff for [1975,2005]
+(x-> year, y-> diameter) for largest 5 components for [1975,1998]
+
+04/06/15:
+number of nodes vs number of edges graph cross check
+largest component size (on basis of nodes) vs year
+number of occurences vs size of components plot for some initials year
+pick up random nodes (1% of the largest component) and then calculate diameter [1999,2005]
+
+07/06/15:
+strongly connected and weakly connected components [1982]
+random graph eccentricity correction [2000,2001,2002,2003,2004,2005]
+3 Techniques: RANDOM node sampling (degree distribution, clustering coefficient) 10% (10 times and take average bias) sampling....1975,1980,1985,1990,1995,2000,2005
+20% (5 times), 30% (3 times)...50%
+x-> sample %, y-> bias
+comparing two distribution: dstatistics
+
+13/06/15:
+number of nodes in largest connected component/number of nodes for years [1975,1980,1985,1990,1995,2000,2005]
+plot two degree distribution for years [1975,1980,1985,1990,1995,2000,2005]
+random x node->pick random 50% indegree and random 50% outdegree---clustering coeff, degree distribution for years [1975,1980,1985,1990,1995,2000,2005]
+random walk---clustering coeff, degree distribution for years [1975,1980,1985,1990,1995,2000,2005]
+
+18/06/15:
+plot two degree distribution for years [1975,1980,1985,1990,1995,2000,2005]
+K core analysis: kcore function in networkx, yearwise 1975, 1976, ..., 2005, size of core, save the contents of the core, normalise with number of nodes
+all 3 sampling results in one graph 10% to 50%: bias, KS-statistics
+
+21/06/15:

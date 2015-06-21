@@ -1,0 +1,56 @@
+Properties of Citation Networks:
+1. Citation networks are directed. The links go from one document to the other.
+2. Citation networks are acyclic because a paper can cite only existing papers.
+3. All edges in the citation networks point backwards in time.
+4. Links in co-authorship networks are reciprocal (symmetric).
+5. The link weights between two authors in co-authorship networks can increase over time if they have further collaboration.
+6. Vertices and edges added to the citation/co-authorship networks are permanent and cannot be removed at a later time.
+7. The already formed part of the network is mostly static; only the leading edge of the network changes.
+
+Use of Citation Network analysis:
+1. Archaeology (Archaeology is the study of the ancient and recent human past through material remains). 
+2. Quantitatively expressing the intuitive results drawn from the literature review.
+
+Collaborative network:
+A collaborative network is the collection of businesses, individuals and other organizational entities that possess the capabilities and resources needed to achieve a specific outcome. The entities (e.g. organizations and people) are largely autonomous, geographically distributed, and heterogeneous in terms of their operating environment, culture, social capital and goals, but that collaborate to better achieve common or compatible goals, and whose interactions are supported by computer networks. Organizing in collaborative networks is a dynamic process, requiring great agility and resourcefulness. In light of the global reach of today’s organizations it is entirely realistic to expect that any organization may seek to satisfy different sets of customers’ needs, regardless of whether the organization is large or small. And as such, it may require a different collaborative network to address each set of needs. Thus it is likely that an organization will participate in multiple collaborative networks on a concurrent basis. The seven essential elements of collaborative networks:
+Search: Allowing users to search for experts, data or content
+Employee Driven: Approved users can add and share content in wiki fashion with low barriers to authorship
+Data integration: Must allow enterprise data to be integrated into the system
+Dashboards and Monitoring: Measure success, adoption, projects through dashboards and monitoring tools
+User Follow: Ability to follow users and their content in the collaborative network
+Content integration: Connects and links content dynamically
+Governance: Controlled access to content and data
+
+We first saw the power of mass collaboration with the advent of Linux, an open source operating system, when it opened its source-code and allowed software developers around the world to openly add and improve the core product. The collaborative process raised the level of quality, innovation and speed of new feature delivery for Linux. Since then, many other companies have started to embrace and develop collaborative networks to create value. They understand that ideas can come from anyone, anywhere and at anytime. 
+
+Example: The idea of social and collaborative networking within the four walls of the organization. In mid-2007 IBM created Beehive, an internal social network to connect employees worldwide. The network gained momentum and supports 30,000 employees. Each employee can add a bio page, photos and connect with employees from other IBM offices around the world. What’s interesting about Beehive is how the employees use the internal network. There are three distinct categories of use. The first is to connect with employees they meet at conferences or when working on interdepartmental or inter-divisional projects. The network provides a mechanism to stay connected and get to know other employees and their area of expertise.The second use is to gain project support and brainstorm with others on how best to complete a project. The connections provide a collaboration channel to promote the project to others and gather ideas from other people at different levels. The third use of Beehive is the opportunity to connect with people at higher levels of the organization that are not accessible via traditional channels. Employees use connections to these executives as a method to share ideas and get career advice with the hope of advancement.
+
+Power Law:
+In statistics, a power law is a functional relationship between two quantities, where one quantity varies as a power of another. For instance, the number of cities having a certain population size is found to vary as a power of the size of the population. Example: The scale-free network model.
+
+Scale Free Network:
+A scale-free network is a network whose degree distribution follows a power law, at least asymptotically. That is, the fraction P(k) of nodes in the network having k connections to other nodes goes for large values of k as P(k) ~ k^{-gamma} where gamma is a parameter whose value is typically in the range 2 < gamma < 3, although occasionally it may lie outside these bounds. 
+
+The highest-degree nodes are often called "hubs", and are thought to serve specific purposes in their networks, although this depends greatly on the domain. The scale-free property strongly correlates with the network's robustness to failure. It turns out that the major hubs are closely followed by smaller ones. These smaller hubs, in turn, are followed by other nodes with an even smaller degree and so on. This hierarchy allows for a fault tolerant behavior. If failures occur at random and the vast majority of nodes are those with small degree, the likelihood that a hub would be affected is almost negligible. Even if a hub-failure occurs, the network will generally not lose its connectedness, due to the remaining hubs. On the other hand, if we choose a few major hubs and take them out of the network, the network is turned into a set of rather isolated graphs. 
+
+In graph theory, a clustering coefficient is a measure of the degree to which nodes in a graph tend to cluster together. Another important characteristic of scale-free networks is the clustering coefficient distribution, which decreases as the node degree increases. This distribution also follows a power law. This implies that the low-degree nodes belong to very dense sub-graphs and those sub-graphs are connected to each other through hubs. 
+
+Measuring Transitivity: 
+Clustering Coefficient = L/nC2  
+                        where L = the number of actual links between the neighbours of v, and n = the number of neighbours of v
+
+Let G be a graph and v be a vertex of G. The eccentricity of the vertex v is the maximum distance from v to any vertex. That is, e(v)=max{d(v,w):w in V(G)}.
+The radius of G is the minimum eccentricity among the vertices of G. Therefore, radius(G)=min{e(v):v in V(G)}.
+The diameter of G is the maximum eccentricity among the vertices of G. Thus, diameter(G)=max{e(v):v in V(G)}.
+
+Centrality is a measure indicating the importance of node in the network. 
+Degree Centrality = k/(N-1)
+                    where k is the degree of the vertex, and N is the total number of nodes in the network.
+
+The farness of a node x is defined as the sum of its distances from all other nodes, and its closeness was defined as the reciprocal of the farness, Closeness Centrality(x): 1/(Summation(distance(y,x)) for all y)
+
+Betweeness centrality: Betweenness centrality of a node v is the sum of the fraction of all-pairs shortest paths that pass through v. 
+(http://networkx.lanl.gov/reference/generated/networkx.algorithms.centrality.betweenness_centrality.html#networkx.algorithms.centrality.betweenness_centrality)
+
+Random walk on graphs:
+A random walk of length k on a possibly infinite graph G with a root 0 is a stochastic process with random variables X1,X2,....,Xk such that X1=0 and  Xi+1 is a vertex chosen uniformly at random from the neighbors of Xi. Then the number pv,w,k(G) is the probability that a random walk of length k starting at v ends at w. In particular, if G is a graph with root 0, p0,0,2k is the probability that a 2k-step random walk returns to 0.
