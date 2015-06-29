@@ -17,7 +17,7 @@ curyear = 1975
 for x in range(curyear, 2005+1):
 	print "Year", x,":"
 	fh1 = open("../data/adjlistfile_till_year_"+str(x))
-	G1 = nx.read_adjlist(fh1)
+	G1 = nx.read_adjlist(fh1, create_using=nx.DiGraph())
 	G1.remove_edges_from(G1.selfloop_edges())
 	G2 = nx.k_core(G1)
 	normalisedkcoresize.append(float(G2.number_of_nodes())/float(G1.number_of_nodes()))
