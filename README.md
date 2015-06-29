@@ -187,7 +187,7 @@ An Online Quiz Application lets you easily build quizzes. The administrator can 
 
 Technologies Used: HTML, PHP, JavaScript, CSS, MySQL, WampServer.
 
-##Sampling from large graphs
+##Sampling large citation graphs
 To derive a representative sample of a large citation network.
 
 Technologies used: Ubuntu 15.04, Python, Java, Git.
