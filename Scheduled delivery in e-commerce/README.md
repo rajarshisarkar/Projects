@@ -1,4 +1,4 @@
-#Scheduled delivery in e-commerce
+##Scheduled delivery in e-commerce
 
 E-commerce has, undeniably, ushered in a new era, where all the hassles that a shopaholic (or anybody else for that matter) faces have been eliminated. From searching stuff, to adding them to the cart, to actually buying them have all turned into a cakewalk. But there is something that still bothers the customer. TIME!
 
@@ -14,7 +14,9 @@ In a nutshell, the customer is benefited. And so is the company!
 
 A win win situation, no?
 
-## To run the web app online:
+Techologies used: HTML, PHP, JavaScript, JQuery, CSS, MySQL, XAMPP
+
+### To run the web app online:
 
 01. Open the web browser and type 'tinyurl.com/scheduleddeliveryinecommerce' in the URL box. Press enter to go to the online version of the app.
 02. To login use the following credentials:
@@ -23,7 +25,7 @@ A win win situation, no?
 03. Login as a customer to place your order by selecting your delivery date and time slot.
 04. Login as an admin to see the comprehensive list of scheduled deliveries arranged according to date, timeslots and pincodes.
 
-##To run the web app locally on your system:
+### To run the web app locally on your system:
 
 01. Install XAMPP.
 02. Run XAMPP and start the Apache server and MySQL server.
