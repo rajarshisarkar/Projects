@@ -1,6 +1,18 @@
 #Scheduled delivery in e-commerce
 
-This project highlights how deliveries can be scheduled in e-commerce. A user can schedule his delivery by choosing a delivery date and a delivery time slot and the package will be delivered to the user at that scheduled date and time slot only. This reduces the problem of expecting your package to be delivered at odd times. A college goer or an office goer can conveniently schedule their package when they are free (say 6:30 PM – 7:00 PM) and need not to panic as the delivery will never be made when they are unable to receive it. A negligible amount may be charged to avail this service and this amount can directly contribute to the revenue to the company. As future prospects, the negligible amount to avail this service can be surged if too many deliveries are to be made at a specific location at a single time slot. This will also directly contribute to the revenue to the company.
+E-commerce has, undeniably, ushered in a new era, where all the hassles that a shopaholic (or anybody else for that matter) faces have been eliminated. From searching stuff, to adding them to the cart, to actually buying them have all turned into a cakewalk. But there is something that still bothers the customer. TIME!
+
+Imagine you broke the frame of your spectacles and ordered one online. You went to work and returned with sore eyes and a terrible headache in the evening only to read this SMS while scanning your message inbox:
+
+"The product could not be delivered as the addressee was not available."
+
+Right product. Right price. Then what went wrong?
+
+Irrespective of how amazing a product is, or the enormous discount at which it is available, the purchase either does not take place or becomes troublesome if the customer is not available; hence the importance of this app. It ensures smooth delivery and receipt of products. All a customer intending to buy a product has to do is fill up two extra blanks - DATE on which they want their product delivered,and a TIME SLOT of 30 minutes within which they want their product delivered. And bingo! The product is at their doorstep on that very day within the time frame provided by them. The customer is no longer uncertain about the delivery of the product, receives it on time, and is happy with the overall experience. The delivery associate who happens to be a company employee, is just as happy, since he does not have to go to the same place again and again owing to customer unavailability. And ofcourse, the company earns more because of the higher level of customer satisfaction. As a future prospect, the company can even charge the customers who wish to avail this service of delivering things on convenient dates and time slots; resort to peak pricing based on a set of criteria including the selected dates and time slots, the existing delivery traffic and the availability of delivery associates; thereby enabling generation of greater revenue for the company.
+
+In a nutshell, the customer is benefited. And so is the company!
+
+A win win situation, no?
 
 ## To run the web app online:
 
