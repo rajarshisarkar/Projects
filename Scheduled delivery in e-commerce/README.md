@@ -1,6 +1,8 @@
+#Scheduled delivery in e-commerce
+
 This project highlights how deliveries can be scheduled in e-commerce. A user can schedule his delivery by choosing a delivery date and a delivery time slot and the package will be delivered to the user at that scheduled date and time slot only. This reduces the problem of expecting your package to be delivered at odd times. A college goer or an office goer can conveniently schedule their package when they are free (say 6:30 PM – 7:00 PM) and need not to panic as the delivery will never be made when they are unable to receive it. A negligible amount may be charged to avail this service and this amount can directly contribute to the revenue to the company. As future prospects, the negligible amount to avail this service can be surged if too many deliveries are to be made at a specific location at a single time slot. This will also directly contribute to the revenue to the company.
 
-To run the web app online:
+## To run the web app online:
 
 01. Open the web browser and type 'tinyurl.com/scheduleddeliveryinecommerce' in the URL box. Press enter to go to the online version of the app.
 02. To login use the following credentials:
@@ -9,9 +11,7 @@ To run the web app online:
 03. Login as a customer to place your order by selecting your delivery date and time slot.
 04. Login as an admin to see the comprehensive list of scheduled deliveries arranged according to date, timeslots and pincodes.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-To run the web app locally on your system:
+##To run the web app locally on your system:
 
 01. Install XAMPP.
 02. Run XAMPP and start the Apache server and MySQL server.
