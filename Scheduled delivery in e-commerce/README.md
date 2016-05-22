@@ -6,8 +6,8 @@ This project highlights how deliveries can be scheduled in e-commerce. A user ca
 
 01. Open the web browser and type 'tinyurl.com/scheduleddeliveryinecommerce' in the URL box. Press enter to go to the online version of the app.
 02. To login use the following credentials:
-    02.01. Customer (username: a, password: b)
-    02.02. Admin (username: admin, password: admin)
+*Customer (username: a, password: b)
+*Admin (username: admin, password: admin)
 03. Login as a customer to place your order by selecting your delivery date and time slot.
 04. Login as an admin to see the comprehensive list of scheduled deliveries arranged according to date, timeslots and pincodes.
 
@@ -22,7 +22,7 @@ This project highlights how deliveries can be scheduled in e-commerce. A user ca
 07. Go to '~/xampp/htdocs/src' and modify the values of $username and $password variable of connect.php file if the username and password of your MySQL server varies from the one given in connect.php.
 08. Open the web browser and type 'localhost/src/index.php' in the URL box to run the app.
 09. To login use the following credentials:
-    09.01. Customer (username: a, password: b)
-    09.02. Admin (username: admin, password: admin)
+*Customer (username: a, password: b)
+*Admin (username: admin, password: admin)
 10. Login as a customer to place your order by selecting your delivery date and time slot.
 11. Login as an admin to see the comprehensive list of scheduled deliveries arranged according to date, timeslots and pincodes.
