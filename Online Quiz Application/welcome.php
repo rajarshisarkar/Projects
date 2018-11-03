@@ -3,7 +3,7 @@
 <html>
 <head><title>Welcome</title>
 	</head>
-	<body bgcolor="blue" text="white">
+	<body bgcolor="yellow" text="black">
 <?php
 echo'<font face="verdana"><b>';
 
