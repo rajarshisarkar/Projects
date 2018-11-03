@@ -5,7 +5,7 @@
 <html>
 <head><title>Online Quiz</title>
 	</head>
-	<body bgcolor="blue" text="white">
+	<body bgcolor="yellow" text="black">
 <?php
 		if(!isset($_POST['login']))
 	{
@@ -19,8 +19,8 @@ echo'
 	Password : <input type="password" name="pass"><br>
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<input type="submit" name="login" value="Submit"><br><br><br>
-	<hr><center><a href="regi.php"><font face="verdana" color="white">New Users Register here</font></a></center>
+	<center><input type="submit" name="login" value="Submit"></center><br><br><br>
+	<hr><center><a href="regi.php"><font face="verdana" color="black">New Users Register here</font></a></center>
 	</form>
 	
 ';
